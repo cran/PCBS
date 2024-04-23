@@ -1,0 +1,23 @@
+exportPattern("^[[:alpha:]]+")
+import(ggplot2)
+import(tibble)
+import(ggrepel)
+import(dplyr, except=c(first,last,between))
+import(data.table)
+importFrom("stats", "aggregate", "dist", "lm", "loess", "median",
+             "na.omit", "p.adjust", "prcomp", "quantile", "sd", "t.test",
+             "var")
+
+export(CheckOvercompression)
+export(addRanks)
+export(getPCRanks)
+export(plot_metagene)
+export(se)
+export(DefineBestPC)
+export(checkRank)
+export(getRegionScores)
+export(rankDist)
+export(Get_Novel_DMRs)
+export(chromDict)
+export(multiple_metagenes)
+export(score_metagene)
